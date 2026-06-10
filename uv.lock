@@ -419,6 +419,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pykoopman" },
     { name = "torch" },
 ]
 
@@ -428,6 +429,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.9" },
     { name = "numpy", specifier = ">=2.4.6" },
     { name = "pandas", specifier = ">=3.0.3" },
+    { name = "pykoopman", specifier = ">=1.0.5" },
     { name = "torch", specifier = ">=2.12.0" },
 ]
 
@@ -754,6 +756,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/38/fb/2b9590512a9d7763620d87171c7531d5295678ce96e57393614b91da8998/pyaml-26.2.1.tar.gz", hash = "sha256:489dd82997235d4cfcf76a6287fce2f075487d77a6567c271e8d790583690c68", size = 30653, upload-time = "2026-02-06T13:49:30.769Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5d/f3/1f8651f23101e6fae41d0d504414c9722b0140bf0fc6acf87ac52e18aa41/pyaml-26.2.1-py3-none-any.whl", hash = "sha256:6261c2f0a2f33245286c794ad6ec234be33a73d2b05427079fd343e2812a87cf", size = 27211, upload-time = "2026-02-06T13:49:29.652Z" },
+]
+
+[[package]]
+name = "pykoopman"
+version = "1.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/b8/2e572f852ede30607c1e72ed6d89d67345fe8bc02c10cc46d1a04c73216b/pykoopman-1.0.5.tar.gz", hash = "sha256:79f19dfea75a440b22bb798619cd24af561699d5456abd1e8f0a2f6f620b48bf", size = 8338468, upload-time = "2023-09-22T00:34:39.767Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6b/5b/3a8e53f454763fd43f09564950e39510bc8e486a3da97e47be0e7f5a0215/pykoopman-1.0.5-py3-none-any.whl", hash = "sha256:7bc935f4fc8679ffe2f08e7450fc9d3589d4a01ea7f466d2374a5b83384f6ad5", size = 94471, upload-time = "2023-09-22T00:34:32.119Z" },
 ]
 
 [[package]]
